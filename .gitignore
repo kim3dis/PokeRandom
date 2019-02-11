@@ -1,0 +1,4 @@
+#ignore
+/app/public/templates/scss/
+/node_modules/
+*.config
