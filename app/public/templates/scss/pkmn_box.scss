@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500');
+
+.box {
+    margin-top: 3vh;
+    width: 33vw;
+    height: 300px;
+    // border: 1px solid black;
+    
+    img {
+        width: 17vw;
+        max-width: 200px;
+        height: 100%;
+    }
+
+
+    .infnumb {
+        background: rgba(0, 0, 0, 0.26);
+        color: #ffffffb2;
+        padding: 3px 8px;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .infname {
+        padding-top: 8px;
+        padding-bottom: 4px;
+        font-weight: bold;
+        font-size: 1.4rem;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff8c;
+    }
+    .inftype {
+        font-size: 0.7rem;
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+}

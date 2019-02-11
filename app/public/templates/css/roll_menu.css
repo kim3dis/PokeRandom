@@ -1,0 +1,28 @@
+.rollmenu {
+  background: #d44a4a;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 15px;
+  right: 68px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0px #d44a4a 0 0 0 0px #d44a4a;
+  box-shadow: 0 0 0 0px #d44a4a 0 0 0 0px #d44a4a;
+  -webkit-transition: -webkit-box-shadow .8s ease-in-out;
+  transition: -webkit-box-shadow .8s ease-in-out;
+  -o-transition: box-shadow .8s ease-in-out;
+  transition: box-shadow .8s ease-in-out;
+  transition: box-shadow .8s ease-in-out, -webkit-box-shadow .8s ease-in-out; }
+  .rollmenu:hover {
+    -webkit-box-shadow: 0 0 0 8px #d44a4a, 0 0 0 8px #d44a4a;
+    box-shadow: 0 0 0 8px #d44a4a, 0 0 0 8px #d44a4a; }
+  .rollmenu .roll {
+    position: relative;
+    display: block;
+    top: 10px;
+    left: 10px;
+    height: 100%;
+    background-image: url("/images/refresh.png");
+    background-size: 20px;
+    background-repeat: no-repeat; }

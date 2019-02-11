@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>add pokémon</title>
+
+    <link rel="shortcut icon" href="/images/poke-flat/psyduck.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+    
+<div ng-app="">
+    <form action="/enviar" method="post">
+        <span>#</span><input type="number" name="number" placeholder="000" ng-model="number" />
+        <input type="text" name="name" placeholder="Missingno" />
+        <input type="text" name="type" placeholder="Bug" />
+        <input type="text" name="type2" placeholder="Flying" />
+        <input type="submit" />
+        <input type="text" name="img" placeholder="img" value="{{number}}" />
+
+    </form>
+</div>
+
+</body>
+</html>
+
+
+

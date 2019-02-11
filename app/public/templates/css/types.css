@@ -1,0 +1,62 @@
+.Ghost, .Fairy, .Steel, .Fight, .Steel, .Ice, .Psychic, .Dark, .Normal, .Bug, .Fire, .Ground, .Rock, .Electric, .Water, .Grass, .Flying, .Dragon, .Poison {
+  padding: 3px 5px;
+  border: transparent 3px solid;
+  border-radius: 3px;
+  color: white;
+  text-shadow: 1px 1px 4px #000000;
+  font-weight: bold;
+  margin-left: 5px; }
+
+.Ghost {
+  background: #7c7bc0; }
+
+.Fight {
+  background: #c56d5b; }
+
+.Fairy {
+  background: #f0a7eb; }
+
+.Steel {
+  background: #b6b5c0; }
+
+.Ice {
+  background: #7cd2fa; }
+
+.Psychic {
+  background: #ff6da3; }
+
+.Dark {
+  background: #8b6d5b; }
+
+.Normal {
+  background: #b6b5a3; }
+
+.Bug {
+  background: #b6c43e; }
+
+.Fire {
+  background: #ff5e3e; }
+
+.Ground {
+  background: #e8ae68; }
+
+.Rock {
+  background: #a57f60; }
+
+.Electric {
+  background: #e9c148; }
+
+.Water {
+  background: #51a7fa; }
+
+.Grass {
+  background: #8bd269; }
+
+.Poison {
+  background: #985d89; }
+
+.Flying {
+  background: #99a7fa; }
+
+.Dragon {
+  background: #8b7beb; }

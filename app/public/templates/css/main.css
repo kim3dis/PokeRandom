@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0 0;
+  border: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#b2c564), color-stop(#c8b85c), color-stop(#d8ab5c), color-stop(#e39e64), color-stop(#e99271), color-stop(#ea9273), color-stop(#eb9174), color-stop(#ec9176), color-stop(#eb9b6c), color-stop(#e6a663), color-stop(#ddb25f), to(#d0be5f));
+  background-image: -webkit-linear-gradient(left top, #b2c564, #c8b85c, #d8ab5c, #e39e64, #e99271, #ea9273, #eb9174, #ec9176, #eb9b6c, #e6a663, #ddb25f, #d0be5f);
+  background-image: -o-linear-gradient(left top, #b2c564, #c8b85c, #d8ab5c, #e39e64, #e99271, #ea9273, #eb9174, #ec9176, #eb9b6c, #e6a663, #ddb25f, #d0be5f);
+  background-image: linear-gradient(to right bottom, #b2c564, #c8b85c, #d8ab5c, #e39e64, #e99271, #ea9273, #eb9174, #ec9176, #eb9b6c, #e6a663, #ddb25f, #d0be5f);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.grid {
+  display: -ms-grid;
+  display: grid; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

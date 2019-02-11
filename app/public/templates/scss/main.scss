@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0 0;
+    border: 0;
+    box-shadow: 0;
+    //background: black;
+    height: 100vh;
+    //width: 100%;
+    background-image: linear-gradient(to right bottom, #b2c564, #c8b85c, #d8ab5c, #e39e64, #e99271, #ea9273, #eb9174, #ec9176, #eb9b6c, #e6a663, #ddb25f, #d0be5f);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}

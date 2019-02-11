@@ -1,0 +1,32 @@
+#menu-roll {
+
+}
+
+.rollmenu {
+	background: #d44a4a;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 15px;
+	right: 68px;
+	cursor: pointer;
+	box-shadow: 0 0 0 0px #d44a4a 0 0 0 0px #d44a4a;
+	transition: box-shadow .8s ease-in-out;
+
+	&:hover {
+		box-shadow: 0 0 0 8px #d44a4a, 0 0 0 8px #d44a4a;
+	}
+
+	.roll {
+		position: relative;
+		display: block;
+		top: 10px;
+		left: 10px;
+        //transition: .5s ease-in-out;
+        height: 100%;
+        background-image: url('/images/refresh.png');
+        background-size: 20px;
+        background-repeat: no-repeat;
+	}
+}
